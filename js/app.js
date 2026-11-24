@@ -360,7 +360,7 @@ if (!configured) {
 
             provider.setCustomParameters({
                 prompt: 'select_account',
-                 tenant: "4334e4b0-48f4-4a76-ae54-cec847437a72"
+                tenant: "4334e4b0-48f4-4a76-ae54-cec847437a72"
             });
 
             await signInWithPopup(auth, provider);
